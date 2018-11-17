@@ -62,7 +62,7 @@ class myMainWindow(QtWidgets.QMainWindow, Ui_L3TServiceDeskAssistant):
         EuName = self.txtEuName.text()
         self.txtOutput.setPlainText(
         "Approval has come back for ticket "+ticketNumber+". You have been given access to the shared folder:\n\n"+
-        folderpath+"\n\nThese changes require a restart of your machine and can take anywhere between"+
+        folderpath+"\n\nThese changes require a restart of your machine and can take anywhere between "+
         "15 minutes to 24 hours to go into effect. I will resolve the ticket at this time, "+
         "but if you are unable to access the shared folder after 24 hours, please contact "+
         "the Service Desk and reference ticket "+ticketNumber+" so that we can assist you further."+
@@ -73,6 +73,8 @@ class myMainWindow(QtWidgets.QMainWindow, Ui_L3TServiceDeskAssistant):
         self.txtPERNR.setText("")
         self.txtFolderPath.setText("")
         self.cmbAccess.setCurrentIndex(0)
+        self.txtPocTicketNumber.setText("")
+        self.txtOutput.setPlainText("")
 
 
 
