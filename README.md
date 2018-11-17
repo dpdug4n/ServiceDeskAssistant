@@ -1,2 +1,3 @@
 # ServiceDeskAssistant
-workProject
+Basic GUI for semi-automating common work tasks. 
+
